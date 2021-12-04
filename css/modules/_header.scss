@@ -1,0 +1,47 @@
+.header {
+	position: relative;
+	background: $gradient;
+	padding: 3.9rem 0 6.1rem;
+	&__container {
+		@include flexColumn-center;
+	}
+	&__logo {
+		width: 15.1rem;
+		height: 2.4rem;
+		margin-bottom: 3.3rem;
+	}
+	&__title {
+		@include Title-Mobile;
+		text-align: center;
+		color: $JustWhite;
+		margin-bottom: $margin-bottom24;
+	}
+	&__text {
+		@include Text-Mobile;
+		text-align: center;
+		color: $SoftOrange;
+	}
+	&__link {
+		@include flex-center-center;
+		position: absolute;
+		bottom: -2.4rem;
+		width: 22.9rem;
+		height: 4.8rem;
+		font-size: 1.4rem;
+		font-weight: 700;
+		text-decoration: none;
+		color: $WarmBlack;
+		background-color: $OffWhite;
+		padding: 1.2rem 1.6rem;
+		box-shadow: $ShadowWhite;
+		border-radius: .4rem;
+	}
+	&__link:hover {
+		@include Button-hover;
+	}
+	&__arrow {
+		width: 1.2rem;
+		height: .741rem;
+		margin-left: .8rem;
+	}
+}

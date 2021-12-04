@@ -1,0 +1,122 @@
+.prices{
+	background-color: $OffWhite;
+	padding: 5.9rem 0 6.4rem;
+	&__container {
+		@include flexColumn-center;
+	}
+	&__img {
+		width: 19.5rem;
+		height: 19.5rem;
+		margin-bottom: 4rem;
+	}
+	&__title {
+		@include Title-Mobile;
+		text-align: center;
+		color: $WarmBlack;
+		margin-bottom: $margin-bottom24;
+	}
+	&__text {
+		@include Text-Mobile;
+		text-align: center;
+		color: $GreyText;
+		margin-bottom: 4.8rem;
+	}
+	&__subtitle {
+		font-size: 1.8rem;
+		font-weight: bold;
+		justify-self: flex-start;
+		color: $BitcoinOrange;
+		margin-bottom: 1.2rem;
+	}
+	&__grid {
+		display: grid;
+		grid-template: 
+		"a b"
+		"c d"
+		"e f"
+		"g h";
+	}
+}
+
+.coins {
+	&__card {
+		display: flex;
+		flex-direction: column;
+	}
+	&__title {
+		font-size: 1.8rem;
+		font-weight: bold;
+		color: $BitcoinOrange;
+		margin: 0 0 1.2rem 1.2rem;
+	}
+	&__grid {
+		display: grid;
+		grid-template: 
+		"a b" 3.9rem
+		"c d" 3.9rem
+		"e f" 3.9rem
+		"g h" 3.9rem / 10.1rem 10.1rem;
+		gap: .1rem;
+	}
+	&__name {
+		display: flex;
+		align-items: center;
+		background-color: $JustWhite;
+		font-family: $font2;
+		font-weight: 500;
+		color: #B5B0AC;
+		font-size: 1.6rem;
+		padding-left: 1.2rem;
+	}
+	&__price {
+		display: flex;
+		align-items: center;
+		background-color: $JustWhite;
+		font-family: $font2;
+		font-weight: 400;
+		color: $GreyText;
+		font-size: 1.4rem;
+		padding-left: 1.2rem;
+	}
+	&__arrow {
+		margin-left: 1rem;
+		width: 1.2rem;
+		height: 1.2rem;
+	}
+}
+
+.a {
+	grid-area: a;
+	border-radius: .8rem 0 0 0;
+}
+
+.b {
+	grid-area: b;
+	border-radius: 0 .8rem 0 0;
+}
+
+.c {
+	grid-area: c;
+}
+
+.d {
+	grid-area: d;
+}
+
+.e {
+	grid-area: e;
+}
+
+.f {
+	grid-area: f;
+}
+
+.g {
+	grid-area: g;
+	border-radius: 0 0 0 .8rem;
+}
+
+.h {
+	grid-area: h;
+	border-radius: 0 0 .8rem 0;
+}
