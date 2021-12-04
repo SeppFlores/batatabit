@@ -1,0 +1,43 @@
+.perks {
+	background-color: $WarmBlack;
+	padding: 6.4rem 0 2.6rem;
+	&__container {
+		@include flexColumn-center;
+	}
+	&__title {
+		@include Title-Mobile;
+		text-align: center;
+		color: $JustWhite;
+		margin-bottom: $margin-bottom24;
+	}
+	&__text {
+		@include Text-Mobile;
+		text-align: center;
+		color: $Grey80;
+		margin-bottom: 2.2rem;
+	}
+	&__grid {
+		display: grid;
+		gap: 1.6rem;
+		padding: 1rem 0 1rem;
+	}
+	&__card {
+		background-color: $Wblack2;
+		border-radius: $Border2;
+		padding: 1.8rem;
+	}
+	&__img {
+		width: 2.4rem;
+		height: 2.4rem;
+		margin-bottom: 1rem;
+	}
+	&__subtitle {
+		@include Subtitle-mobile;
+		color: $JustWhite;
+		margin-bottom: 1rem;
+	}
+	&__subtext {
+		@include Text-Mobile;
+		color: $Grey80;
+	}
+}
