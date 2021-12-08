@@ -1,0 +1,193 @@
+.prices{
+	background-color: $OffWhite;
+	padding: 5.9rem 0 4.8rem;
+	&__container {
+		@include flexColumn-center;
+	}
+	&__img {
+		width: 19.5rem;
+		height: 19.5rem;
+		margin-bottom: 4rem;
+	}
+	&__title {
+		@include Title-Mobile;
+		text-align: center;
+		color: $WarmBlack;
+		margin-bottom: $margin-bottom24;
+	}
+	&__text {
+		@include Text-Mobile;
+		text-align: center;
+		color: $GreyText;
+		margin-bottom: 3.6rem;
+	}
+}
+
+.coins {
+	&__card {
+		display: flex;
+		flex-direction: column;
+		padding: 1.6rem 0;
+	}
+	&__title {
+		font-size: 1.8rem;
+		font-weight: bold;
+		color: $BitcoinOrange;
+		margin: 0 0 1.2rem 1.2rem;
+	}
+	&__grid {
+		display: grid;
+		grid-template: 
+		"a b" 3.9rem
+		"c d" 3.9rem
+		"e f" 3.9rem
+		"g h" 3.9rem / 10.1rem 10.6rem;
+		gap: .1rem;
+		margin-bottom: 1.6rem;
+	}
+	&__name {
+		display: flex;
+		align-items: center;
+		background-color: $JustWhite;
+		font-family: $font2;
+		font-weight: 500;
+		color: #B5B0AC;
+		font-size: 1.6rem;
+		padding-left: 1.2rem;
+	}
+	&__price {
+		display: flex;
+		align-items: center;
+		background-color: $JustWhite;
+		font-family: $font2;
+		font-weight: 400;
+		color: $GreyText;
+		font-size: 1.4rem;
+		padding-left: 2.1rem;
+	}
+	&__arrow {
+		margin-left: 2.1rem;
+		width: 1.2rem;
+		height: 1.2rem;
+	}
+	&__a {
+		grid-area: a;
+		border-radius: .8rem 0 0 0;
+	}
+	&__b {
+		grid-area: b;
+		border-radius: 0 .8rem 0 0;
+	}
+	&__c {
+		grid-area: c;
+	}
+	&__d {
+		grid-area: d;
+	}
+	&__e {
+		grid-area: e;
+	}
+	&__f {
+		grid-area: f;
+	}
+	&__g {
+		grid-area: g;
+		border-radius: 0 0 0 .8rem;
+	}
+	&__h {
+		grid-area: h;
+		border-radius: 0 0 .8rem 0;
+	}
+	&__value {
+		width: 11.5rem;
+		height: 3.1rem;
+		font-family: $font2;
+		font-size: 1.2rem;
+		color: $Wblack2;
+		background-color: $SoftOrange;
+		padding: .8rem;
+		border-radius: $Border1;
+	}
+}
+
+.commissions {
+	&__card {
+		display: flex;
+		flex-direction: column;
+		padding: 1.6rem 0;
+	}
+	&__title {
+		font-size: 1.8rem;
+		font-weight: bold;
+		color: $SecondaryBlue;
+		margin: 0 0 1.2rem 1.2rem;
+	}
+	&__grid {
+		display: grid;
+		grid-template: 
+		"a b" 3.9rem
+		"c d" 3.9rem
+		"e f" 3.9rem
+		"g h" 3.9rem / 10.1rem 10.6rem;
+		gap: .1rem;
+		margin-bottom: 1.6rem;
+	}
+	&__name {
+		display: flex;
+		align-items: center;
+		background-color: $JustWhite;
+		font-family: $font2;
+		font-weight: 500;
+		color: #B5B0AC;
+		font-size: 1.6rem;
+		padding-left: 1.2rem;
+	}
+	&__price {
+		display: flex;
+		align-items: center;
+		background-color: $JustWhite;
+		font-family: $font2;
+		font-weight: 400;
+		color: $GreyText;
+		font-size: 1.4rem;
+		padding-left: 2.9rem;
+	}
+	&__a {
+		grid-area: a;
+		border-radius: .8rem 0 0 0;
+	}
+	&__b {
+		grid-area: b;
+		border-radius: 0 .8rem 0 0;
+	}
+	&__c {
+		grid-area: c;
+	}
+	&__d {
+		grid-area: d;
+	}
+	&__e {
+		grid-area: e;
+	}
+	&__f {
+		grid-area: f;
+	}
+	&__g {
+		grid-area: g;
+		border-radius: 0 0 0 .8rem;
+	}
+	&__h {
+		grid-area: h;
+		border-radius: 0 0 .8rem 0;
+	}
+	&__value {
+		width: 11.5rem;
+		height: 3.1rem;
+		font-family: $font2;
+		font-size: 1.2rem;
+		color: $Wblack2;
+		background-color: $SoftBlue;
+		padding: .8rem;
+		border-radius: $Border1;
+	}
+}

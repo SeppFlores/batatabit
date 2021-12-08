@@ -1,0 +1,83 @@
+$gradient: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%); 
+$font2:'Inter', sans-serif;
+$BitcoinOrange: #F7931A;
+$SoftOrange: #FFE9D4;
+$SecondaryBlue: #1A9AF7;
+$SoftBlue: #E7F5FF;
+$WarmBlack: #201E1C;
+$Wblack2: #282623;
+$Grey: #BABABA;
+$OffWhite: #FAF8F7;
+$JustWhite: #FFFFFF;
+$GreyText: #757575;
+$Grey80: #808080;
+$margin-bottom24: 2.4rem;
+$ShadowWhite: 0px 4px 8px rgba(89, 73, 30, 0.16);
+$ShadowBlack: 0px 4px 8px rgba(0, 0, 0, 0.16);
+$ShadowHover: 0px 4px 8px rgba(89, 73, 30, 0.4);
+$Border1: .8rem;
+$Border2: .4rem;
+
+@mixin flexColumn-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@mixin flex-center-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin Title-Mobile {
+	font-weight: bold;
+	font-size: 2.4rem;
+	line-height: 2.6rem;
+}
+
+@mixin Text-Mobile {
+	font-weight: medium;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+}
+
+@mixin Title-Tablet {
+	font-weight: bold;
+	font-size: 4rem;
+	line-height: 4.2rem;
+}
+
+@mixin Text-Tablet {
+	font-weight: medium;
+	font-size: 2rem;
+	line-height: 2.4rem;
+}
+
+@mixin Subtitle-mobile {
+	font-weight: bold;
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+}
+
+@mixin Button-hover {
+	color: $BitcoinOrange;
+	box-shadow: $ShadowHover;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+.u_wrapper {
+	width: 28.8rem;
+	margin: 0 auto;
+}
