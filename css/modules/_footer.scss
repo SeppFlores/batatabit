@@ -13,23 +13,14 @@
 		display: flex;
 		flex-direction: column
 	}
-	&__linkedin {
+	&__link {
 		@include Text-Mobile;
 		color: $JustWhite;
 		text-decoration: none;
 		margin-bottom: .8rem;
 	}
-	&__crunchbase {
-		@include Text-Mobile;
-		color: $JustWhite;
-		text-decoration: none;
-		margin-bottom: .8rem;
-	}
-	&__hackernews {
-		@include Text-Mobile;
-		color: $JustWhite;
-		text-decoration: none;
-		margin-bottom: .8rem;
+	&__link:hover {
+		color: $SecondaryBlue;
 	}
 	&__logo {
 		width: 6.4rem;

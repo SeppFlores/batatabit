@@ -2,6 +2,9 @@
 	width: 100%;
 	height: 38.7rem;
 	background-image: url('/img/womanMobile.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	padding-top: 6.4rem;
 	&__container {
 		@include flexColumn-center;

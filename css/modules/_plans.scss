@@ -81,6 +81,9 @@
 		border: .2rem solid $BitcoinOrange;
 		border-radius: $Border1;
 	}
+	&__button:hover {
+		@include Button-hover;
+	}
 	&__arrow {
 		width: 2.4rem;
 		height: 2.4rem;
